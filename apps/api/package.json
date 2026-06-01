@@ -1,0 +1,25 @@
+{
+  "name": "@hiring/api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "백엔드 — NestJS + Drizzle (사용자/권한/메뉴 관리)",
+  "scripts": {
+    "build": "nest build",
+    "dev": "nest start --watch",
+    "start": "node dist/main.js",
+    "type-check": "tsc --noEmit",
+    "test": "echo \"테스트는 지원자가 자유롭게 추가하세요\" && exit 0"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.0",
+    "@types/node": "^22.10.0",
+    "typescript": "~5.7.3"
+  }
+}

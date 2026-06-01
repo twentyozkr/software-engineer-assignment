@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.turbo/
+*.log
+.env
+.DS_Store
+
+# lock 파일은 의도적으로 포함하지 않음 (지원자가 직접 install)
+pnpm-lock.yaml
+
+# SQLite DB 파일은 제출 시 함께 커밋합니다 (gitignore 하지 않음).
+# 채점자가 받은 즉시 시드된 데이터로 실행/확인할 수 있도록 합니다.
